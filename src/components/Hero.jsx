@@ -17,22 +17,22 @@ const Hero = () => {
 
         <div className="flex justify-around md:gap-14 gap-5">
           <img
-            src="src\images\client-databiz.svg"
+            src="src/images/client-databiz.svg"
             alt="/"
             className="md:h-[25px] md:w-[75px] h-[20px] w-[60px]"
           />
           <img
-            src="src\images\client-audiophile.svg"
+            src="src/images/client-audiophile.svg"
             alt="/"
             className="md:h-[25px] md:w-[75px] h-[20px] w-[60px]"
           />
           <img
-            src="src\images\client-meet.svg"
+            src="src/images/client-meet.svg"
             alt="/"
             className="md:h-[25px] md:w-[75px] h-[20px] w-[60px]"
           />
           <img
-            src="src\images\client-maker.svg"
+            src="src/images/client-maker.svg"
             alt="/"
             className="md:h-[25px] md:w-[75px] h-[20px] w-[60px]"
           />
@@ -40,12 +40,12 @@ const Hero = () => {
       </div>
       <div className="md:w-1/2">
         <img
-          src="src\images\image-hero-desktop.png"
+          src="src/images/image-hero-desktop.png"
           alt="/"
           className="h-[80vh] w-[80%] hidden md:flex"
         />
         <img
-          src="src\images\image-hero-mobile.png"
+          src="src/images/image-hero-mobile.png"
           alt="/"
           className="m-img md:hidden"
         />
