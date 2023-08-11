@@ -1,0 +1,29 @@
+.hamburger {
+  display: none;
+  @apply z-10;
+}
+
+.nav-menu {
+  @apply flex space-x-[32rem];
+}
+
+@media screen and (max-width: 940px) {
+  .nav-menu {
+    @apply fixed right-[-100%] top-0 flex-col justify-center bg-[var(--White)] w-[60%] h-full text-left duration-300 shadow-xl space-x-4 z-10;
+  }
+
+  .navbar {
+    @apply justify-between;
+  }
+
+  .nav-menu.active {
+    @apply right-0;
+  }
+  .hamburger {
+    @apply flex;
+  }
+
+  ul {
+    @apply flex-col w-full;
+  }
+}
